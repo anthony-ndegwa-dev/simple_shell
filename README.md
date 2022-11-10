@@ -3,16 +3,19 @@ C - Simple Shell.
 Project to be done in teams of 2 people (your team: Anthony Ngunjiri, Siele Kipkurui).
 
 Background Context:
+
     Write a simple UNIX command interpreter.
       
 Resources
 Read or watch:
+
     Unix shell
     Thompson shell
     Ken Thompson
     Everything you need to know to start coding your own shell concept page.
 
 General:
+
     Who designed and implemented the original Unix operating system
     Who wrote the first version of the UNIX shell
     Who invented the B programming language (the direct predecessor to the C programming language)
@@ -29,6 +32,7 @@ General:
     What is EOF / “end-of-file”?
     
 Requirements:
+
     Allowed editors: vi, vim, emacs.
     All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
     All files should end with a new line
@@ -42,11 +46,13 @@ Requirements:
     You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker.
     There should be one project repository per group.
     
-Output
+Output:
+
     Unless specified otherwise, your program must have the exact same output as sh (/bin/sh) as well as the exact same error output.
     The only difference is when you print an error, the name of the program must be equivalent to your argv[0]
     
-List of allowed functions and system calls
+List of allowed functions and system calls:
+
     access (man 2 access)
     chdir (man 2 chdir)
     close (man 2 close)
@@ -79,5 +85,6 @@ List of allowed functions and system calls
     wait4 (man 2 wait4)
     write (man 2 write)
 
-Compilation
+Compilation:
+
     Your shell will be compiled this way: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
