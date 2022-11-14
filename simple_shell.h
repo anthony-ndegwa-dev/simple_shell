@@ -1,3 +1,6 @@
+#ifndef SIMPLE_SHELL_H
+#define SIMPLE_SHELL_H
+
 #include <sys/stat.h>
 #include <sys/wait.h>
 #include <stdlib.h>
@@ -42,4 +45,4 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 char *_strcat(char *dest, char *src);
 
-#endif
+#endif /* SIMPLE_SHELL_H */
