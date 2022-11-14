@@ -69,7 +69,7 @@ void prompt(void)
 void handle(int signals)
 {
 	(void)signals;
-	write(STDOUT_FILENO, "    ", 14);
+	write(STDOUT_FILENO, "  ", 5);
 }
 
 /**
