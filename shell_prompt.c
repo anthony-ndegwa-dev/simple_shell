@@ -56,7 +56,7 @@ int main(int ac, char **av, char **env)
 void prompt(void)
 {
 	if (isatty(STDIN_FILENO))
-		write(STDOUT_FILENO, "\n$    ", 4);
+		write(STDOUT_FILENO, "\n$ ", 4);
 }
 
 /**
